@@ -1,12 +1,10 @@
 @import url(https://fonts.googleapis.com/css?family=Sigmar+One|Fredoka+One|Fjalla+One);
-#title {
-  font-family: "Sigmar One", sans-serif;
-  font-size: 4em;
-  color: #C42525;
-}
+/*elements*/
 body {
  background-color: #D1F9DD;
  cursor:pointer;
+ margin: 0;
+ padding: 0;
 }
 div {
   -webkit-touch-callout: none;
@@ -16,12 +14,25 @@ div {
   -ms-user-select: none;
   user-select: none;
 }
+/*components*/
+.container-main {
+  padding: 0;
+  max-width: 600px;
+  margin: 0 auto;
+  text-align:center;
+}
 .controls, .control_title, #reset{
   font-family: "Fjalla One", sans-serif;
   font-size: 1.8em;
 }
 .control_title, .break_title {
   width: 200px;
+}
+
+#title {
+  font-family: "Sigmar One", sans-serif;
+  font-size: 3em;
+  color: #C42525;
 }
 #clock_session, #clock_start {
   font-family: "Fjalla One", sans-serif;
@@ -61,9 +72,7 @@ div {
 .num {
   width: 50px;
 }
-.container {
-  position: relative;
-}
+
 .clock{
 	width: 300px;
 	height: 300px;
