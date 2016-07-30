@@ -12,7 +12,7 @@ div {
   -khtml-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
-  user-select: none;
+  user-select: none;-webkit-user-select
 }
 /*components*/
 .container-main {
@@ -31,7 +31,7 @@ div {
 
 #title {
   font-family: "Sigmar One", sans-serif;
-  font-size: 3em;
+  font-size: 2.5em;
   color: #C42525;
 }
 #clock_session, #clock_start {
@@ -48,7 +48,7 @@ div {
   background-color: #C42525;
   width: 200px;
   border-radius: 5px;
-}
+}-webkit-user-select
 .controls {
   padding: 2%;
 }
@@ -74,8 +74,8 @@ div {
 }
 
 .clock{
-	width: 300px;
-	height: 300px;
+	width: 270px;
+	height: 270px;
 }
 
 #clock_session {
