@@ -23,10 +23,10 @@ div {
 }
 .controls, .control_title, #reset{
   font-family: "Fjalla One", sans-serif;
-  font-size: 1.8em;
+  font-size: 1.2em;
 }
 .control_title, .break_title {
-  width: 200px;
+  width: 156px;
 }
 
 #title {
@@ -70,7 +70,7 @@ div {
 }
 
 .num {
-  width: 50px;
+  width: 30px;
 }
 
 .clock{
