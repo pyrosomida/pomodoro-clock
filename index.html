@@ -1,57 +1,55 @@
 <!DOCTYPE HTML>
 <html>
 
-<HEAD>
+<head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
 	<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
 	<link rel="stylesheet" type="text/css" href="style.css" />
 	<script type="text/javascript" src="javascript.js"></script>
-
-
-
-</HEAD>
+</head>
 
 <body>
 	<div class="container-main">
-	<header>
-		<h1 id="title">POMODORO!</h1>
-	</header>
-	<main>
-		<!-- controls -->
-		<div class="inline" id="session_controls">
-			<div class="control_title">SESSION LENGTH</div>
-			<div class="controls">
-				<div class="inline buttons" id="session_minus">-</div>
-				<div class="inline num" id="session_length">25</div>
-				<div class="inline buttons" id="session_plus">+</div>
+		<header>
+			<h1 id="title">POMODORO!</h1>
+		</header>
+		<main>
+			<!-- controls -->
+			<div class="inline" id="session_controls">
+				<div class="control_title">SESSION LENGTH</div>
+				<div class="controls">
+					<div class="inline buttons" id="session_minus">-</div>
+					<div class="inline num" id="session_length">25</div>
+					<div class="inline buttons" id="session_plus">+</div>
+				</div>
 			</div>
-		</div>
-		<div class="inline" id="break_controls">
-			<div class="control_title">BREAK LENGTH</div>
-			<div class="controls">
-				<div class="inline buttons brk" id="break_minus">-</div>
-				<div class="inline num" id="break_length">5</div>
-				<div class="inline buttons brk" id="break_plus">+</div>
+			<div class="inline" id="break_controls">
+				<div class="control_title">BREAK LENGTH</div>
+				<div class="controls">
+					<div class="inline buttons brk" id="break_minus">-</div>
+					<div class="inline num" id="break_length">5</div>
+					<div class="inline buttons brk" id="break_plus">+</div>
+				</div>
 			</div>
-		</div>
-		<!-- ./controls -->
-		<!-- clock -->
-		<div class="clock" id="clock_face">
-			<div id="writing">
-				<h2 id="clock_session">SESSION</h2>
-				<h2 id="clock_start">click to start</h2>
-				<h2 id="clock_time"></h2>
+			<!-- ./controls -->
+			<!-- clock -->
+			<div class="clock" id="clock_face">
+				<div id="writing">
+					<h2 id="clock_session">SESSION</h2>
+					<h2 id="clock_start">click to start</h2>
+					<h2 id="clock_time"></h2>
+				</div>
+				<div class="clock" id="clock_back">
+				</div>
 			</div>
-			<div class="clock" id="clock_back">
-			</div>
-		</div>
-		<!-- ./clock -->
-		<!-- reset -->
-		<div id="reset">RESET</div>
-		<!-- ./reset -->
-	</main>
-</div><!-- ./container-main -->
+			<!-- ./clock -->
+			<!-- reset -->
+			<div id="reset">RESET</div>
+			<!-- ./reset -->
+		</main>
+	</div>
+	<!-- ./container-main -->
 
 </body>
 
