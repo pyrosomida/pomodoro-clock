@@ -23,10 +23,10 @@ div {
 }
 .controls, .control_title, #reset{
   font-family: "Fjalla One", sans-serif;
-  font-size: 1.2em;
+  font-size: 1.1em;
 }
 .control_title, .break_title {
-  width: 156px;
+  width: 150px;
 }
 
 #title {
@@ -34,21 +34,25 @@ div {
   font-size: 2.5em;
   color: #C42525;
 }
+
 #clock_session, #clock_start {
   font-family: "Fjalla One", sans-serif;
   font-size: 2em;
 }
+
 #clock_time {
   font-family: "Courier New", monospace;
   font-size: 2.5em;
 }
+
 #reset {
-  margin-top: 40px;
+  margin: 40px auto 0;
   padding: 5px;
   background-color: #C42525;
   width: 200px;
   border-radius: 5px;
-}-webkit-user-select
+}
+
 .controls {
   padding: 2%;
 }
@@ -62,10 +66,8 @@ div {
   border-radius: 5px;
   color:white;
 }
-.sess {
-  background-color: #C42525;
-}
-.brk{
+.sess,
+.brk {
   background-color: #C42525;
 }
 
@@ -76,6 +78,7 @@ div {
 .clock{
 	width: 270px;
 	height: 270px;
+  margin: 0 auto;
 }
 
 #clock_session {
@@ -97,7 +100,8 @@ div {
   width: inherit;
   height: inherit;
   z-index: 1;
-  }
+}
+
 #clock_back{
 	position: relative;
 	z-index: 0;

@@ -13,13 +13,15 @@
 </HEAD>
 
 <body>
-	<header></header>
-	<main class="container-main">
+	<div class="container-main">
+	<header>
 		<h1 id="title">POMODORO!</h1>
+	</header>
+	<main>
 		<!-- controls -->
 		<div class="inline" id="session_controls">
 			<div class="control_title">SESSION LENGTH</div>
-			<div class="controls text-center">
+			<div class="controls">
 				<div class="inline buttons sess" id="session_minus">-</div>
 				<div class="inline num" id="session_length">25</div>
 				<div class="inline buttons sess" id="session_plus">+</div>
@@ -27,7 +29,7 @@
 		</div>
 		<div class="inline" id="break_controls">
 			<div class="control_title">BREAK LENGTH</div>
-			<div class="controls text-center">
+			<div class="controls">
 				<div class="inline buttons brk" id="break_minus">-</div>
 				<div class="inline num" id="break_length">5</div>
 				<div class="inline buttons brk" id="break_plus">+</div>
@@ -49,7 +51,7 @@
 		<div id="reset">RESET</div>
 		<!-- ./reset -->
 	</main>
-	<!-- ./container-main -->
+</div><!-- ./container-main -->
 
 </body>
 
