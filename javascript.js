@@ -18,7 +18,7 @@ $(document).ready(function() {
     sec = minsToSecs(sessionTime),
     totalTime = sec,
     onBreak = false,
-    ding = new Audio("http://freesound.org/data/previews/91/91926_7037-lq.mp3"),
+    ding = new Audio("/sounds/91926__corsica-s__ding.wav"),
     fillSize = 300,
     resetButton = document.getElementById("reset");
   /* /global variables */

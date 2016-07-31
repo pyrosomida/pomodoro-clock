@@ -59,23 +59,26 @@ div {
 
 .inline{
   display:inline-block;
-  padding: 5%;
+  padding: 2px;
 }
 .buttons{
-  width: 25px;
-  border-radius: 5px;
+  width: 15px;
+  border-radius: 3px;
   color:white;
+  background-color: #C42525
 }
+/*
 .sess,
 .brk {
-  background-color: #C42525;
-}
+  background-color: #C42525; /*#C42525*/
+  outline: 1px solid red;
+}*/
 
 .num {
   width: 30px;
 }
 
-.clock{
+.clock {
 	width: 270px;
 	height: 270px;
   margin: 0 auto;
