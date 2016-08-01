@@ -46,12 +46,12 @@ $(document).ready(function() {
     showClockTime.innerHTML = secsToTime(s);
     if (onBreak) {
       clockSession.innerHTML = "BREAK";
-      clockFace.style.backgroundColor = "rgba(38, 167, 242, 0.6)";
+      clockFace.style.backgroundColor = "rgba(38, 167, 242, 0.7)";
       clockFace.style.borderColor="rgb(38, 167, 242)";
     }
     else {
       clockSession.innerHTML = "SESSION";
-      clockFace.style.backgroundColor="rgba(102, 186, 18, 0.6)";
+      clockFace.style.backgroundColor="rgba(102, 186, 18, 0.7)";
       clockFace.style.borderColor="#66BA12";
     }
   }
@@ -81,7 +81,7 @@ $(document).ready(function() {
       showClockTime.innerHTML = sessionTime;
       clockBack.style.marginTop="240px";
       clockSession.innerHTML = "SESSION";
-      clockFace.style.backgroundColor="rgba(102, 186, 18, 0.6)";
+      clockFace.style.backgroundColor="rgba(102, 186, 18, 0.7)";
       clockFace.style.borderColor="#66BA12";
     }
   }

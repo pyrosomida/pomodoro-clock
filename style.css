@@ -91,7 +91,7 @@ header, main {
 /* clock */
 #clock_session, #clock_start {
     font-family: "Fjalla One", sans-serif;
-    font-size: 1.8em;
+    font-size: 1.6em;
 }
 #clock_time {
     font-family: "Nova Mono", monospace;
@@ -108,7 +108,7 @@ header, main {
 }
 #clock_face {
     border: 4px solid #66BA12;
-    background-color: rgba(102, 186, 18, 0.6);
+    background-color: red;/*rgba(102, 186, 18, 0.7);*/
     border-radius: 50%;
     overflow: hidden;
     z-index: -1;
@@ -120,6 +120,7 @@ header, main {
     width: inherit;
     height: inherit;
     z-index: 1;
+    color: #fff;
 }
 #clock_back {
     position: relative;
