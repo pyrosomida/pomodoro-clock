@@ -1,119 +1,138 @@
-@import url(https://fonts.googleapis.com/css?family=Sigmar+One|Fredoka+One|Fjalla+One);
+@import url(https://fonts.googleapis.com/css?family=Sigmar+One|Nova+Mono|Fjalla+One);
+
 /*elements*/
+
 body {
- background-color: #D1F9DD;
- cursor:pointer;
- margin: 0;
- padding: 0;
-
+    background-color: rgba(102, 186, 18, 0.1);
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+    color: rgba(0, 0, 0, 0.6)
 }
-
-div,
-.container-main {
-  -webkit-touch-callout: none;
-  -webkit-user-select: none;
-  -khtml-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-}
-/*components*/
-.container-main {
+header, main {
+  margin: 0;
   padding: 0;
-  max-width: 600px;
-  margin: 0 auto;
-  text-align:center;
 }
 
-.controls, .control_title, #reset{
-  font-family: "Fjalla One", sans-serif;
-  font-size: 1.1em;
-}
-.control_title, .break_title {
-  width: 150px;
-}
+/*components*/
 
+.container-main {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    padding: 0 0 20px 0;
+    max-width: 400px;
+    margin: 50px auto;
+    text-align: center;
+    border: 2px solid #66BA12; /*rgb(102, 186, 18)*/
+    border-radius: 20px;
+    background-color: #fff;
+}
 #title {
-  font-family: "Sigmar One", sans-serif;
-  font-size: 2.5em;
-  color: #C42525;
+    font-family: "Sigmar One", sans-serif;
+    font-size: 2.5em;
+    color: #C42525;
+    margin: 0 0 0 10px;
+    padding: 0;
 }
-
-#clock_session, #clock_start {
-  font-family: "Fjalla One", sans-serif;
-  font-size: 2em;
-}
-
-#clock_time {
-  font-family: "Courier New", monospace;
-  font-size: 2.5em;
-}
-
-#reset {
-  margin: 40px auto 0;
+/* controls */
+.control_box {
+  width: 90%;
+  margin: 0 auto 20px auto;
   padding: 5px;
-  background-color: #C42525;
-  width: 200px;
   border-radius: 5px;
 }
 
-.controls {
-  padding: 2%;
-}
-
-.inline{
-  display:inline-block;
-  padding: 2px;
-}
-.buttons{
-  width: 15px;
-  border-radius: 3px;
-  color:white;
-  background-color: #C42525
+#break_controls, #session_controls {
+  border: 2px solid rgba(196, 37, 37, 0.4);
+  border-radius: 5px 15px;
+  width: 45%;
 }
 /*
-.sess,
-.brk {
-  background-color: #C42525; /*#C42525*/
-  outline: 1px solid red;
+#break_controls {
+  margin-left: 10px;
+}
+#session_controls {
+  margin-right: 10px;
+}*/
+.controls, .control_title, #reset {
+    font-family: "Fjalla One", sans-serif;
+    font-size: 1.1em;
+}
+/*
+.control_title, .break_title {
+    width: 160px;
 }*/
 
+.inline {
+    display: inline-block;
+    padding: 0;
+    margin: 0:
+}
+.buttons {
+    width: 25px;
+    height: 25px;
+    border-radius: 3px;
+    color: white;
+    background-color: #C42525;
+}
 .num {
-  width: 30px;
+    width: 50px;
+}
+/* ./controls */
+/* clock */
+#clock_session, #clock_start {
+    font-family: "Fjalla One", sans-serif;
+    font-size: 1.8em;
+}
+#clock_time {
+    font-family: "Nova Mono", monospace;
+    font-size: 2em;
 }
 
 .clock {
-	width: 270px;
-	height: 270px;
-  margin: 0 auto;
+    width: 240px;
+    height: 240px;
+    margin: 0 auto;
 }
-
 #clock_session {
-	padding-top: 20px;
+    padding-top: 20px;
 }
-
-#clock_face{
-  border: 8px solid #66BA12;
-  background-color: #66BA12;
-  border-radius: 50%;
-  overflow: hidden;
-  z-index: -1;
+#clock_face {
+    border: 4px solid #66BA12;
+    background-color: rgba(102, 186, 18, 0.6);
+    border-radius: 50%;
+    overflow: hidden;
+    z-index: -1;
 }
-
 #writing {
-  position: absolute;
-  top: inherit;
-  left: inherit;
-  width: inherit;
-  height: inherit;
-  z-index: 1;
+    position: absolute;
+    top: inherit;
+    left: inherit;
+    width: inherit;
+    height: inherit;
+    z-index: 1;
+}
+#clock_back {
+    position: relative;
+    z-index: 0;
+    background-color: #C42525;
+    margin-top: 300px;
+    top: inherit;
+    height: 240px; /*300px*/
 }
 
-#clock_back{
-	position: relative;
-	z-index: 0;
-	background-color: #C42525;
-	margin-top: 300px;
-	top: inherit;
-  height: 300px;
+/* ./clock */
+/* reset */
+#reset {
+    margin: 40px auto 0;
+    padding: 5px;
+    background-color: #C42525;
+    width: 200px;
+    border-radius: 5px;
+    color: #fff;
 }
+/* ./reset */

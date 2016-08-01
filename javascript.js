@@ -51,7 +51,7 @@ $(document).ready(function() {
     }
     else {
       clockSession.innerHTML = "SESSION";
-      clockFace.style.backgroundColor="#66BA12";
+      clockFace.style.backgroundColor="rgba(102, 186, 18, 0.6)";
       clockFace.style.borderColor="#66BA12";
     }
   }
@@ -66,10 +66,10 @@ $(document).ready(function() {
     if (bool) {
       if (onBreak) {
         showClockTime.innerHTML = breakTime
-        clockBack.style.marginTop="300px";
+        clockBack.style.marginTop="240px";
         } else {
         showClockTime.innerHTML = sessionTime;
-        clockBack.style.marginTop="300px";
+        clockBack.style.marginTop="240px";
       }
     }
     else if (!bool){
@@ -79,9 +79,9 @@ $(document).ready(function() {
       sec = minsToSecs(sessionTime);
       totalTime = sec;
       showClockTime.innerHTML = sessionTime;
-      clockBack.style.marginTop="300px";
+      clockBack.style.marginTop="240px";
       clockSession.innerHTML = "SESSION";
-      clockFace.style.backgroundColor="#66BA12";
+      clockFace.style.backgroundColor="rgba(102, 186, 18, 0.6)";
       clockFace.style.borderColor="#66BA12";
     }
   }
