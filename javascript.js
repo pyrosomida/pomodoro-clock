@@ -19,7 +19,7 @@ $(document).ready(function() {
     totalTime = sec,
     onBreak = false,
     ding = new Audio("/sounds/91926__corsica-s__ding.wav"),
-    fillSize = 300,
+    fillSize = 240,
     resetButton = document.getElementById("reset");
   /* /global variables */
 
@@ -46,8 +46,8 @@ $(document).ready(function() {
     showClockTime.innerHTML = secsToTime(s);
     if (onBreak) {
       clockSession.innerHTML = "BREAK";
-      clockFace.style.backgroundColor = "#008A9F";
-      clockFace.style.borderColor="#008A9F";
+      clockFace.style.backgroundColor = "rgba(38, 167, 242, 0.6)";
+      clockFace.style.borderColor="rgb(38, 167, 242)";
     }
     else {
       clockSession.innerHTML = "SESSION";
@@ -186,7 +186,7 @@ $(document).ready(function() {
     if(s === 0) {
       fillSize = 0;
     } else {
-      fillSize = Math.ceil((s+1)/t*300);
+      fillSize = Math.ceil((s+1)/t*240);
     }
     clockBack.style.marginTop=fillSize + "px";
   }

@@ -105,7 +105,7 @@ header, main {
     border: 4px solid #66BA12;
     background-color: rgba(102, 186, 18, 0.6);
     border-radius: 50%;
-    overflow: hidden;
+    overflow: visible;
     z-index: -1;
 }
 #writing {
@@ -120,9 +120,9 @@ header, main {
     position: relative;
     z-index: 0;
     background-color: #C42525;
-    margin-top: 300px;
+    margin-top: 240px;
     top: inherit;
-    height: 240px; /*300px*/
+    height: 240px;
 }
 
 /* ./clock */
