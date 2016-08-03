@@ -51,7 +51,7 @@ header, main {
 
 #break_controls, #session_controls {
   border: 2px solid rgba(196, 37, 37, 0.4);
-  border-radius: 5px 15px;
+  border-radius: 6px;
   width: 45%;
 }
 
@@ -106,8 +106,8 @@ header, main {
 }
 
 #clock_face {
-    border: 4px solid #66BA12;
-    background-color: red;/*rgba(102, 186, 18, 0.7);*/
+    border: 4px solid rgb(102, 186, 18);
+    background-color: rgba(196, 37, 37, 0.7);
     border-radius: 50%;
     overflow: hidden;
     z-index: -1;
@@ -136,7 +136,7 @@ header, main {
 
 /* reset */
 #reset {
-    margin: 40px auto 0;
+    margin: 40px auto 20px;
     padding: 5px;
     background-color: #C42525;
     width: 200px;
