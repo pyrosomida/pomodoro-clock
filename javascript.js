@@ -63,6 +63,7 @@ $(document).ready(function() {
   function resetClock(bool) {
     clockStart.style.visibility="visible";
     clockStart.innerHTML="click to start";
+    clockStart.style.color="#fff";
     if (bool) {
       if (onBreak) {
         showClockTime.innerHTML = breakTime
