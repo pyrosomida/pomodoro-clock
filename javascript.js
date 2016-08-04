@@ -81,7 +81,7 @@ $(document).ready(function() {
       showClockTime.innerHTML = sessionTime;
       clockBack.style.marginTop="240px";
       clockSession.innerHTML = "SESSION";
-      clockFace.style.backgroundColor="rgba(102, 186, 18, 0.7)";
+      clockFace.style.backgroundColor="rgba(196, 37, 37, 0.7)";
       clockFace.style.borderColor="#66BA12";
     }
   }
@@ -111,6 +111,7 @@ $(document).ready(function() {
       clockStart.innerHTML="paused";
     }
     clockStart.style.visibility="visible";
+    clockStart.style.color="rgba(196, 37, 37, 0.7)";
   }
 
   function countDown() {
